@@ -1,0 +1,14 @@
+Package: WernerBrewer
+Type: Package
+Title: WernerBrewer
+Version: 0.1.0
+Author: Santiago Ramírez Barahona
+Maintainer: Santiago Ramírez Barahona <santiago.ramirez@ib.unam.mx>
+Description: Colour palettes inspired by "Werner's Nomencalture of Colours" by Patrick SymeBuilt.
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
