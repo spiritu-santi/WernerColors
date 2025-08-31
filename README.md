@@ -24,14 +24,26 @@ devtools::install_github("spiritu-santi/WernerColors")
 
 ## Usage
 
-User can retrieve palettes with the method below.
+Palettes can be retrieved with the methods below.
 
 ``` r
 # For discrete scales. 
-werner.brewer("Firebirds", n = 7, type = "discrete", direction = 1, return_hex=FALSE)
+werner_brewer("Firebirds", n = 7, type = "discrete", direction = 1, return_hex=FALSE)
 
 # For continuous scales and more colours. 
-werner.brewer("Firebirds", n = 14, type = "continuous", direction = 1, return_hex=FALSE)
+werner_brewer("Firebirds", n = 14, type = "continuous", direction = 1, return_hex=FALSE)
+```
+
+Or palettes can be incorporated into ‘ggplot’
+
+``` r
+# For discrete scales. 
+scale_color_werner_d("Firebirds", direction = 1, n = 7)
+scale_fill_werner_d("Firebirds", direction = 1, n = 7)
+
+# For continuous scales. 
+scale_color_werner_c("Firebirds", direction = 1, n = 7)
+scale_fill_werner_c("Firebirds", direction = 1, n = 7)
 ```
 
 ### Example
@@ -42,12 +54,19 @@ through the use of scale\_\*\_manual.
 
 ``` r
 library(ggplot2)
-library(WernerColors)
 colors <- werner.brewer("Firebirds")
-  data = tibble(A = 1:7, B = LETTERS[1:7])
+
+data = tibble(A = 1:7, B = LETTERS[1:7])
   ggplot(data, aes(x=A,y=B,fill=B)) + 
     geom_bar(stat="identity") + 
     scale_fill_manual(values=colors) + 
+    theme_void() + 
+    NULL
+
+# Alternatively
+  ggplot(data, aes(x=A,y=B,fill=B)) + 
+    geom_bar(stat="identity") + 
+    scale_fill_werner_d("Firebirds", n = 7) + 
     theme_void() + 
     NULL
 ```
