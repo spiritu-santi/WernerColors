@@ -15,7 +15,7 @@ in the HMS Beagle to describe natural scenes and animals.
 ## Installation
 
 You can install the development version of WernerColors from
-[spiritu-santi](https://github.com/spiritu-santi/WernerColors) with:
+[Github](https://github.com/spiritu-santi/WernerColors) with:
 
 ``` r
 # install.packages("devtools")

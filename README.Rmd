@@ -23,7 +23,7 @@ Colour palettes inspired by 'Werner's Nomenclature of Colours. Adapted to Zoolog
 
 ## Installation
 
-You can install the development version of WernerColors from [spiritu-santi](https://github.com/spiritu-santi/WernerColors) with:
+You can install the development version of WernerColors from [Github](https://github.com/spiritu-santi/WernerColors) with:
 
 ``` r
 # install.packages("devtools")
