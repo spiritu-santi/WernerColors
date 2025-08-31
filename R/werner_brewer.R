@@ -9,10 +9,12 @@
 #' @return Colours of desired palette in hex code or the palette ready for use.
 #' @export
 
-werner.brewer <- function(name, n,
-                          type = c("discrete", "continuous"), direction = c(1, -1),
+werner_brewer <- function(name, n,
+                          type = c("discrete", "continuous"),
+                          direction = c(1, -1),
                           return_hex=FALSE) {
   palette <- WernerPals[[name]]
+
   if (is.null(palette)|is.numeric(name)){
     stop("Palette does not exist.")
   }
@@ -33,7 +35,7 @@ werner.brewer <- function(name, n,
   type <- match.arg(type)
 
   if (type == "discrete" && n > length(palette[[1]])) {
-    stop("Too many colors!")
+    stop("Too many colors for the palette! \n try type 'continuous' instead.")
   }
 
   continuous <-  if(direction==1){grDevices::colorRampPalette(palette[[1]])(n)
@@ -50,5 +52,4 @@ werner.brewer <- function(name, n,
   )
   if(return_hex==TRUE){print(out)}
   structure(out, class = "palette", name = name)
-  #print.werner(structure(out, class = "palette", name = name))
 }
