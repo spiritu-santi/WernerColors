@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# Werner Colours <a href="https://github.com/spiritu-santi/WernerColors"><img src="man/figures/logo.png" align="right" height="300" alt="Hex sticker" /></a>
+# Werner Colours <a href="https://github.com/spiritu-santi/WernerColors"><img src="man/images/logo.png" align="right" height="300" alt="Sticker" /></a>
 
 <!-- badges: start -->
 <!-- badges: end -->
