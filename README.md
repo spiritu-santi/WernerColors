@@ -1,1 +1,61 @@
-# Werner Colours
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# Werner Colours <a href="https://github.com/spiritu-santi/WernerColors"><img src="man/figures/logo.png" align="right" height="300" alt="ggplot2 website" /></a>
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+Colour palettes inspired by ‘Werner’s Nomenclature of Colours. Adapted
+to Zoology, Botany, Chemistry, Mineralogy, Anatomy, and the Arts. By
+Patrick Syme’. The palette represents one of the world’s firs taxonomy
+of colours (108 in total) and was used by Charles Darwin during travels
+in the HMS Beagle to describe natural scenes and animals.
+
+## Installation
+
+You can install the development version of WernerColors from
+[GitHub](https://github.com/spiritu-santi/WernerColors) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("spiritu-santi/WernerColors")
+```
+
+## Usage
+
+User can retrieve palettes with the method below.
+
+``` r
+# For discrete scales. 
+werner.brewer("Firebirds", n = 7, type = "discrete", direction = 1, return_hex=FALSE)
+
+# For continuous scales and more colours. 
+werner.brewer("Firebirds", n = 14, type = "continuous", direction = 1, return_hex=FALSE)
+```
+
+### Example
+
+This is a basic example to generate a plot with a set of colours.  
+User provides the name of the palette and then integrates the palette
+through the use of scale\_\*\_manual.
+
+``` r
+library(ggplot2)
+library(WernerColors)
+colors <- werner.brewer("Firebirds")
+  data = tibble(A = 1:7, B = LETTERS[1:7])
+  ggplot(data, aes(x=A,y=B,fill=B)) + 
+    geom_bar(stat="identity") + 
+    scale_fill_manual(values=colors) + 
+    theme_void() + 
+    NULL
+```
+
+## Colorblind Friendly Checking
+
+The package is being updated to check for colorblind-friendlyness.
+
+## Issues and comments
+
+Feel free to reach out to me:<br /> Email: <blakerobertmills@gmail.com>
