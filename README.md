@@ -6,8 +6,8 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-Colour palettes inspired by ‘Werner’s Nomenclature of Colours. Adapted
-to Zoology, Botany, Chemistry, Mineralogy, Anatomy, and the Arts. By
+Color palettes inspired by ‘Werner’s Nomenclature of Colours. Adapted to
+Zoology, Botany, Chemistry, Mineralogy, Anatomy, and the Arts. By
 Patrick Syme’. The palette represents one of the world’s firs taxonomy
 of colours (108 in total) and was used by Charles Darwin during travels
 in the HMS Beagle to describe natural scenes and animals.
