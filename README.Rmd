@@ -32,7 +32,21 @@ devtools::install_github("spiritu-santi/WernerColors")
 
 ## Usage
 
-Palettes can be retrieved with the methods below. 
+Palettes can be retrieved with the methods below.  
+Available palette names:  
+
+| Specially built |  | Werner's taxonomy |  |  
+|----------------:|-:|------------------:|-:|  
+| Rocks           |  | whites            |  |  
+| Plants          |  | greys             |  |
+| Birds           |  | blacks            |  |
+| Bugs            |  | blues             |  |
+| Bugs2           |  | purples           |  |
+| Firebirds       |  | greens            |  |
+| Greybirds       |  | yellows           |  |
+| Seeds           |  | orange            |  |
+| Apples          |  | reds              |  |
+| Leaves          |  | browns            |  |
 
 ```{r usage, eval = FALSE}
 # For discrete scales. 
