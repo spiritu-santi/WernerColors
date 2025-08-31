@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# Werner Colours <a href="https://github.com/spiritu-santi/WernerColors"><img src="man/figures/logo.png" align="right" height="300" alt="ggplot2 website" /></a>
+# Werner Colours <a href="https://github.com/spiritu-santi/WernerColors"><img src="man/figures/logo.png" align="right" height="300" alt="Hex sticker" /></a>
 
 
 <!-- badges: start -->
@@ -23,7 +23,7 @@ Colour palettes inspired by 'Werner's Nomenclature of Colours. Adapted to Zoolog
 
 ## Installation
 
-You can install the development version of WernerColors from [GitHub](https://github.com/spiritu-santi/WernerColors) with:
+You can install the development version of WernerColors from [spiritu-santi](https://github.com/spiritu-santi/WernerColors) with:
 
 ``` r
 # install.packages("devtools")
@@ -65,4 +65,4 @@ The package is being updated to check for colorblind-friendlyness.
 
 ## Issues and comments
 Feel free to reach out to me:<br />
-Email: blakerobertmills@gmail.com
+Email: santiago.ramirez@ib.unam.mx

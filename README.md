@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# Werner Colours <a href="https://github.com/spiritu-santi/WernerColors"><img src="man/figures/logo.png" align="right" height="300" alt="ggplot2 website" /></a>
+# Werner Colours <a href="https://github.com/spiritu-santi/WernerColors"><img src="man/figures/logo.png" align="right" height="300" alt="Hex sticker" /></a>
 
 <!-- badges: start -->
 <!-- badges: end -->
@@ -15,7 +15,7 @@ in the HMS Beagle to describe natural scenes and animals.
 ## Installation
 
 You can install the development version of WernerColors from
-[GitHub](https://github.com/spiritu-santi/WernerColors) with:
+[spiritu-santi](https://github.com/spiritu-santi/WernerColors) with:
 
 ``` r
 # install.packages("devtools")
@@ -58,4 +58,4 @@ The package is being updated to check for colorblind-friendlyness.
 
 ## Issues and comments
 
-Feel free to reach out to me:<br /> Email: <blakerobertmills@gmail.com>
+Feel free to reach out to me:<br /> Email: <santiago.ramirez@ib.unam.mx>
