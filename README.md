@@ -8,9 +8,10 @@
 
 Color palettes inspired by ‘Werner’s Nomenclature of Colours. Adapted to
 Zoology, Botany, Chemistry, Mineralogy, Anatomy, and the Arts. By
-Patrick Syme’. The palette represents one of the world’s firs taxonomy
-of colours (108 in total) and was used by Charles Darwin during travels
-in the HMS Beagle to describe natural scenes and animals.
+Patrick Syme’.  
+The palette represents one of the world’s firs taxonomy of colours (108
+in total) and was used by Charles Darwin during travels in the HMS
+Beagle to describe natural scenes and animals.
 
 ## Installation
 
@@ -27,18 +28,18 @@ devtools::install_github("spiritu-santi/WernerColors")
 Palettes can be retrieved with the methods below.  
 Available palette names:
 
-| Specially built |     | Werner’s taxonomy |     |
-|----------------:|----:|------------------:|----:|
-|           Rocks |     |            whites |     |
-|          Plants |     |             greys |     |
-|           Birds |     |            blacks |     |
-|            Bugs |     |             blues |     |
-|           Bugs2 |     |           purples |     |
-|       Firebirds |     |            greens |     |
-|       Greybirds |     |           yellows |     |
-|           Seeds |     |            orange |     |
-|          Apples |     |              reds |     |
-|          Leaves |     |            browns |     |
+| Specially built |  | Werner’s taxonomy |  |
+|---:|---:|---:|---:|
+| Rocks | ![](man/images/Rocks.png) | whites | ![](man/images/whites.png) |
+| Plants | ![](man/images/Plants.png) | greys | ![](man/images/greys.png) |
+| Birds | ![](man/images/Birds.png) | blacks | ![](man/images/blacks.png) |
+| Bugs | ![](man/images/Bugs.png) | blues | ![](man/images/blues.png) |
+| Bugs2 | ![](man/images/Bugs2.png) | purples | ![](man/images/purples.png) |
+| Firebirds | ![](man/images/Firebirds.png) | greens | ![](man/images/greens.png) |
+| Greybirds | ![](man/images/Greybirds.png) | yellows | ![](man/images/yellows.png) |
+| Seeds | ![](man/images/Seeds.png) | orange | ![](man/images/orange.png) |
+| Apples | ![](man/images/Apples.png) | reds | ![](man/images/reds.png) |
+| Leaves | ![](man/images/Leaves.png) | browns | ![](man/images/browns.png) |
 
 ``` r
 # For discrete scales. 
@@ -68,7 +69,7 @@ through the use of scale\_\*\_manual.
 
 ``` r
 library(ggplot2)
-colors <- werner.brewer("Firebirds")
+colors <- werner_brewer("Firebirds")
 
 data = tibble(A = 1:7, B = LETTERS[1:7])
   ggplot(data, aes(x=A,y=B,fill=B)) + 
