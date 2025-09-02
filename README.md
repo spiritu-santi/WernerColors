@@ -8,10 +8,14 @@
 
 Color palettes inspired by ‘Werner’s Nomenclature of Colours. Adapted to
 Zoology, Botany, Chemistry, Mineralogy, Anatomy, and the Arts. By
-Patrick Syme’.  
-The palette represents one of the world’s firs taxonomy of colours (108
-in total) and was used by Charles Darwin during travels in the HMS
-Beagle to describe natural scenes and animals.
+Patrick Syme’. Werner’s taxonomy of colours was used by Charles Darwin
+during the travels of the HMS Beagle to describe natural scenes and
+animals in a consistent manner.  
+The palette represents one of the world’s firs taxonomy of colours (110
+in total) that are grouped in 10 component parts. Every color has a
+given a number and name, and associated examples of ‘animals’,
+‘vegetables’, and ‘minerals’. This is the basis of the ‘Special
+palettes’.
 
 ## Installation
 
@@ -25,10 +29,9 @@ devtools::install_github("spiritu-santi/WernerColors")
 
 ## Usage
 
-Palettes can be retrieved with the methods below.  
 Available palette names:
 
-| Specially built |  | Werner’s taxonomy |  |
+| Special palettes |  | Component palettes |  |
 |---:|---:|---:|---:|
 | Rocks | ![](man/images/Rocks.png) | whites | ![](man/images/whites.png) |
 | Plants | ![](man/images/Plants.png) | greys | ![](man/images/greys.png) |
@@ -41,12 +44,14 @@ Available palette names:
 | Apples | ![](man/images/Apples.png) | reds | ![](man/images/reds.png) |
 | Leaves | ![](man/images/Leaves.png) | browns | ![](man/images/browns.png) |
 
+Palettes can be retrieved with the methods below.
+
 ``` r
 # For discrete scales. 
 werner_brewer("Firebirds", n = 7, type = "discrete", direction = 1, return_hex=FALSE)
 
 # For continuous scales and more colours. 
-werner_brewer("Firebirds", n = 14, type = "continuous", direction = 1, return_hex=FALSE)
+werner_brewer("Bugs", n = 14, type = "continuous", direction = 1, return_hex=FALSE)
 ```
 
 Or palettes can be incorporated into ‘ggplot’
@@ -57,8 +62,8 @@ scale_color_werner_d("Firebirds", direction = 1, n = 7)
 scale_fill_werner_d("Firebirds", direction = 1, n = 7)
 
 # For continuous scales. 
-scale_color_werner_c("Firebirds", direction = 1, n = 7)
-scale_fill_werner_c("Firebirds", direction = 1, n = 7)
+scale_color_werner_c("Bugs", direction = 1, n = 7)
+scale_fill_werner_c("Bugs", direction = 1, n = 7)
 ```
 
 ### Example
@@ -70,18 +75,18 @@ through the use of scale\_\*\_manual.
 ``` r
 library(ggplot2)
 colors <- werner_brewer("Firebirds")
-
 data = tibble(A = 1:7, B = LETTERS[1:7])
-  ggplot(data, aes(x=A,y=B,fill=B)) + 
+
+ggplot(data, aes(x=A,y=B,fill=B)) + 
     geom_bar(stat="identity") + 
     scale_fill_manual(values=colors) + 
     theme_void() + 
     NULL
 
 # Alternatively
-  ggplot(data, aes(x=A,y=B,fill=B)) + 
+ggplot(data, aes(x=A,y=B,fill=B)) + 
     geom_bar(stat="identity") + 
-    scale_fill_werner_d("Firebirds", n = 7) + 
+    scale_fill_werner_d("Bugs", n = 7) + 
     theme_void() + 
     NULL
 ```
