@@ -19,8 +19,8 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-Color palettes inspired by 'Werner's Nomenclature of Colours. Adapted to Zoology, Botany, Chemistry, Mineralogy, Anatomy, and the Arts. By Patrick Syme'. Werner's taxonomy of colours was used by Charles Darwin during the travels of the HMS Beagle to describe natural scenes and animals in a consistent manner.  
-The palette represents one of the world's firs taxonomy of colours (110 in total) that are grouped in 10 component parts. Every color has a given a number and name, and associated examples of 'animals', 'vegetables', and 'minerals'.  This is the basis of the 'Special palettes'.  
+Color palettes inspired by 'Werner's Nomenclature of Colours. Adapted to Zoology, Botany, Chemistry, Mineralogy, Anatomy, and the Arts. By Patrick Syme'. The palette represents one of the world's firs taxonomy of colours (110 in total) that are grouped in 10 component parts. Every color has a given a number and name, and associated examples of 'animals', 'vegetables', and 'minerals'.  This is the basis of the 'Special palettes'.  
+Werner's taxonomy of colours was used by Charles Darwin during the travels of the HMS Beagle to describe natural scenes and animals in a consistent manner. The 'Beagle' palettes are inspired by Darwin's 'The Voyage of the Beagle' and the colours mentioned to describe scenery, plants or animals, although colours have to be adjusted to make for nicer palettes. **Currently, I'm (re)reading the Voyage to construct these palette and will upload new palettes accordingly.**
   
 
 ## Installation
@@ -49,6 +49,11 @@ Available palette names:
 | Apples          |![](man/images/Apples.png)  | reds              |![](man/images/reds.png)  |
 | Leaves          |![](man/images/Leaves.png)  | browns            |![](man/images/browns.png)  |
 
+Available Voyage palettes:
+| Chapter |  | Palette |  |  
+|----------------:|-:|------------------:|-:|  
+| Chapter I         | CapeVerd            |![](man/images/CapeVerd.png)  |  
+| Chapter I         | CuttleFish         |![](man/images/CuttleFish.png)  |
 
 Palettes can be retrieved with the methods below. 
 
