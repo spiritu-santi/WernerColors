@@ -39,8 +39,8 @@ devtools::install_github("spiritu-santi/WernerColors")
 
 Available palette names:  
 
-| Special palettes |  | Component palettes |  |  
-|----------------:|-:|------------------:|-:|  
+|   | Special  |   | Component  |  
+|----------------:|--|------------------:|--|  
 | Rocks           |![](man/images/Rocks.png)  | whites            |![](man/images/whites.png)  |  
 | Plants          |![](man/images/Plants.png) | greys             |![](man/images/greys.png)  |
 | Birds           |![](man/images/Birds.png)  | blacks            |![](man/images/blacks.png)  |
@@ -54,9 +54,10 @@ Available palette names:
 
 Available Voyage palettes:
 
-|  |  |  |  |  | 
-|----------------:|-:|------------------:|-:| -:|  
-| Chapter I | CapeVerd  |![](man/images/CapeVerd.png)  | CuttleFish         |![](man/images/CuttleFish.png)  |
+|   |  Chapter 1 |
+|-----------:|--| 
+| CapeVerd     |![](man/images/CapeVerd.png)  |
+| CuttleFish   |![](man/images/CuttleFish.png)  |
 
 
 Palettes can be retrieved with the methods below. 

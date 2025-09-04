@@ -38,24 +38,25 @@ devtools::install_github("spiritu-santi/WernerColors")
 
 Available palette names:
 
-| Special palettes |  | Component palettes |  |
-|---:|---:|---:|---:|
-| Rocks | ![](man/images/Rocks.png) | whites | ![](man/images/whites.png) |
-| Plants | ![](man/images/Plants.png) | greys | ![](man/images/greys.png) |
-| Birds | ![](man/images/Birds.png) | blacks | ![](man/images/blacks.png) |
-| Bugs | ![](man/images/Bugs.png) | blues | ![](man/images/blues.png) |
-| Bugs2 | ![](man/images/Bugs2.png) | purples | ![](man/images/purples.png) |
-| Firebirds | ![](man/images/Firebirds.png) | greens | ![](man/images/greens.png) |
+|           | Special                       |         | Component                   |
+|----------:|-------------------------------|--------:|-----------------------------|
+|     Rocks | ![](man/images/Rocks.png)     |  whites | ![](man/images/whites.png)  |
+|    Plants | ![](man/images/Plants.png)    |   greys | ![](man/images/greys.png)   |
+|     Birds | ![](man/images/Birds.png)     |  blacks | ![](man/images/blacks.png)  |
+|      Bugs | ![](man/images/Bugs.png)      |   blues | ![](man/images/blues.png)   |
+|     Bugs2 | ![](man/images/Bugs2.png)     | purples | ![](man/images/purples.png) |
+| Firebirds | ![](man/images/Firebirds.png) |  greens | ![](man/images/greens.png)  |
 | Greybirds | ![](man/images/Greybirds.png) | yellows | ![](man/images/yellows.png) |
-| Seeds | ![](man/images/Seeds.png) | orange | ![](man/images/orange.png) |
-| Apples | ![](man/images/Apples.png) | reds | ![](man/images/reds.png) |
-| Leaves | ![](man/images/Leaves.png) | browns | ![](man/images/browns.png) |
+|     Seeds | ![](man/images/Seeds.png)     |  orange | ![](man/images/orange.png)  |
+|    Apples | ![](man/images/Apples.png)    |    reds | ![](man/images/reds.png)    |
+|    Leaves | ![](man/images/Leaves.png)    |  browns | ![](man/images/browns.png)  |
 
 Available Voyage palettes:
 
-|  |  |  |  |  |
-|---:|---:|---:|---:|---:|
-| Chapter I | CapeVerd | ![](man/images/CapeVerd.png) | CuttleFish | ![](man/images/CuttleFish.png) |
+|            | Chapter 1                      |
+|-----------:|--------------------------------|
+|   CapeVerd | ![](man/images/CapeVerd.png)   |
+| CuttleFish | ![](man/images/CuttleFish.png) |
 
 Palettes can be retrieved with the methods below.
 
