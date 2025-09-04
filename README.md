@@ -19,9 +19,10 @@ travels of the HMS Beagle to describe natural scenes and animals in a
 consistent manner. The ‘Beagle’ palettes are inspired by Darwin’s ‘The
 Voyage of the Beagle’ and the colours mentioned to describe scenery,
 plants or animals, although colours have to be adjusted to make for
-nicer palettes.  
-**Currently, I’m (re)reading the Voyage to construct these palette and
-will upload new palettes accordingly.**
+nicer palettes.
+
+**Currently working my way through the Voyage to construct these
+palettes and will be uploading new palettes accordingly.**
 
 ## Installation
 
