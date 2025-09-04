@@ -12,14 +12,16 @@ Patrick Syme’. The palette represents one of the world’s firs taxonomy
 of colours (110 in total) that are grouped in 10 component parts. Every
 color has a given a number and name, and associated examples of
 ‘animals’, ‘vegetables’, and ‘minerals’. This is the basis of the
-‘Special palettes’.  
+‘Special palettes’.
+
 Werner’s taxonomy of colours was used by Charles Darwin during the
 travels of the HMS Beagle to describe natural scenes and animals in a
 consistent manner. The ‘Beagle’ palettes are inspired by Darwin’s ‘The
 Voyage of the Beagle’ and the colours mentioned to describe scenery,
 plants or animals, although colours have to be adjusted to make for
-nicer palettes. **Currently, I’m (re)reading the Voyage to construct
-these palette and will upload new palettes accordingly.**
+nicer palettes.  
+**Currently, I’m (re)reading the Voyage to construct these palette and
+will upload new palettes accordingly.**
 
 ## Installation
 
