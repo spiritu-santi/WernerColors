@@ -53,10 +53,11 @@ Available palette names:
 | Leaves          |![](man/images/Leaves.png)  | browns            |![](man/images/browns.png)  |
 
 Available Voyage palettes:
-| Chapter |  | Palette |  |  
-|----------------:|-:|------------------:|-:|  
-| Chapter I         | CapeVerd            |![](man/images/CapeVerd.png)  |  
-| Chapter I         | CuttleFish         |![](man/images/CuttleFish.png)  |
+
+|  |  |  |  |  | 
+|----------------:|-:|------------------:|-:| -:|  
+| Chapter I | CapeVerd  |![](man/images/CapeVerd.png)  | CuttleFish         |![](man/images/CuttleFish.png)  |
+
 
 Palettes can be retrieved with the methods below. 
 
