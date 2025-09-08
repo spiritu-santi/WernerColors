@@ -21,6 +21,8 @@ Voyage of the Beagle’ and the colours mentioned to describe scenery,
 plants or animals, although colours have to be adjusted to make for
 nicer palettes.
 
+[![HitCount](https://hits.dwyl.com/spiriti-santi/WernerColors.svg?style=flat-square)](http://hits.dwyl.com/spiriti-santi/WernerColors)
+
 **Currently working my way through the Voyage to construct these
 palettes and will be uploading new palettes accordingly.**
 
