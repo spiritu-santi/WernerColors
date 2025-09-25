@@ -36,28 +36,43 @@ devtools::install_github("spiritu-santi/WernerColors")
 ```
 
 ## Usage
+The package is being updated to check for colorblind-friendliness of the special palettes. All test are performed using [Adobe Color](https://color.adobe.com/es/create/color-wheel). The list is being constantly updated.   
 
-Available palette names:  
+### Special palettes  
+| Name  |   | Colorblind friendly   |  
+|:----------------|---|:---:| 
+| Rocks           |![](man/images/Rocks.png)  | :heavy_check_mark: |  
+| Plants          |![](man/images/Plants.png) | :heavy_check_mark: |
+| Birds           |![](man/images/Birds.png)  |             |
+| Bugs            |![](man/images/Bugs.png)  |              |
+| Bugs2           |![](man/images/Bugs2.png)  |            |
+| Firebirds       |![](man/images/Firebirds.png)  |             |
+| Greybirds       |![](man/images/Greybirds.png)  |             |
+| Seeds           |![](man/images/Seeds.png)  |              |
+| Apples          |![](man/images/Apples.png)  |               |
+| Leaves          |![](man/images/Leaves.png)  | :heavy_check_mark: |
 
-|   | Special  |   | Component  |  
-|----------------:|--|------------------:|--|  
-| Rocks           |![](man/images/Rocks.png)  | whites            |![](man/images/whites.png)  |  
-| Plants          |![](man/images/Plants.png) | greys             |![](man/images/greys.png)  |
-| Birds           |![](man/images/Birds.png)  | blacks            |![](man/images/blacks.png)  |
-| Bugs            |![](man/images/Bugs.png)  | blues             |![](man/images/blues.png)  |
-| Bugs2           |![](man/images/Bugs2.png)  | purples           |![](man/images/purples.png)  |
-| Firebirds       |![](man/images/Firebirds.png)  | greens            |![](man/images/greens.png)  |
-| Greybirds       |![](man/images/Greybirds.png)  | yellows           |![](man/images/yellows.png)  |
-| Seeds           |![](man/images/Seeds.png)  | orange            |![](man/images/orange.png)  |
-| Apples          |![](man/images/Apples.png)  | reds              |![](man/images/reds.png)  |
-| Leaves          |![](man/images/Leaves.png)  | browns            |![](man/images/browns.png)  |
+### Component palettes
+| Name  |   | Colorblind friendly   |  
+|:----------------|---|:---:| 
+| whites            |![](man/images/whites.png)  | |
+| greys             |![](man/images/greys.png)  | |
+| blacks            |![](man/images/blacks.png)  | |
+| blues             |![](man/images/blues.png)  | |
+| purples           |![](man/images/purples.png)  | |
+| greens            |![](man/images/greens.png)  | |
+| yellows           |![](man/images/yellows.png)  | |
+| orange            |![](man/images/orange.png)  | |
+| reds              |![](man/images/reds.png)  | |
+| browns            |![](man/images/browns.png)  |:x:|
 
-Available Voyage palettes:
 
-|   |  Chapter 1 |
-|-----------:|--| 
-| CapeVerd     |![](man/images/CapeVerd.png)  |
-| CuttleFish   |![](man/images/CuttleFish.png)  |
+### Voyage palettes:
+#### Chapter 1
+| Name  |   | Colorblind friendly   |  
+|:----------------|---|:---:| 
+| CapeVerd     |![](man/images/CapeVerd.png)  | :heavy_check_mark: |
+| CuttleFish   |![](man/images/CuttleFish.png)  | :heavy_check_mark: |
 
 
 Palettes can be retrieved with the methods below. 
@@ -105,10 +120,6 @@ ggplot(data, aes(x=A,y=B,fill=B)) +
     theme_void() + 
     NULL
 ```
-
-
-## Colorblind Friendly Checking
-The package is being updated to check for colorblind-friendlyness. 
 
 ## Issues and comments
 Feel free to reach out to me:<br />
