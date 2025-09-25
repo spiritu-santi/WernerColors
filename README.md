@@ -45,8 +45,8 @@ constantly updated.
 
 | Name      |                               | Colorblind friendly |
 |:----------|-------------------------------|:-------------------:|
-| Rocks     | ![](man/images/Rocks.png)     | :heavy_check_mark:  |
-| Plants    | ![](man/images/Plants.png)    | :heavy_check_mark:  |
+| Rocks     | ![](man/images/Rocks.png)     | :white_check_mark:  |
+| Plants    | ![](man/images/Plants.png)    | :white_check_mark:  |
 | Birds     | ![](man/images/Birds.png)     |                     |
 | Bugs      | ![](man/images/Bugs.png)      |                     |
 | Bugs2     | ![](man/images/Bugs2.png)     |                     |
@@ -54,7 +54,7 @@ constantly updated.
 | Greybirds | ![](man/images/Greybirds.png) |                     |
 | Seeds     | ![](man/images/Seeds.png)     |                     |
 | Apples    | ![](man/images/Apples.png)    |                     |
-| Leaves    | ![](man/images/Leaves.png)    | :heavy_check_mark:  |
+| Leaves    | ![](man/images/Leaves.png)    | :white_check_mark:  |
 
 ### Component palettes
 
@@ -77,8 +77,8 @@ constantly updated.
 
 | Name       |                                | Colorblind friendly |
 |:-----------|--------------------------------|:-------------------:|
-| CapeVerd   | ![](man/images/CapeVerd.png)   | :heavy_check_mark:  |
-| CuttleFish | ![](man/images/CuttleFish.png) | :heavy_check_mark:  |
+| CapeVerd   | ![](man/images/CapeVerd.png)   | :white_check_mark:  |
+| CuttleFish | ![](man/images/CuttleFish.png) | :white_check_mark:  |
 
 Palettes can be retrieved with the methods below.
 
